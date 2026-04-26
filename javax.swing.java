@@ -2,13 +2,16 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 import java.awt.Font;
-public class VentanaSimple {
+import java.awt.Color;
+public class TextoColor {
     public static void main(String[] args) {
-        JFrame frame = new JFrame("UPLA - Ingeniería de Sistemas");
-        frame.setSize(500, 200);
+        JFrame frame = new JFrame("UPLA");
+        frame.setSize(400, 150);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        JLabel label = new JLabel("Bienvenidos a Programación I", SwingConstants.CENTER);
-        label.setFont(new Font("Arial", Font.BOLD, 24));
+        frame.getContentPane().setBackground(Color.WHITE);
+        JLabel label = new JLabel("Universidad Peruana Los Andes", SwingConstants.CENTER);
+        label.setFont(new Font("Times New Roman", Font.BOLD, 20));
+        label.setForeground(Color.BLUE);
         frame.add(label);
         frame.setVisible(true);
     }
