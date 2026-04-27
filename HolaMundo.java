@@ -1,5 +1,5 @@
 public class HolaMundo {
     public static void main(String[] args) {
-        System.out.println("Hola mundo desde Ingeniería de Sistemas - UPLA");
+        System.out.println("SOY EL MEJOR DEL MUNDO");
     }
 }
