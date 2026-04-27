@@ -1,10 +1,10 @@
 public class Calculadora {
     public static void main(String[] args) {
-        int a = 20;
-        int b = 5;
-        System.out.println("Suma: " + (a + b));
-        System.out.println("Resta: " + (a - b));
-        System.out.println("Multiplicación: " + (a * b));
-        System.out.println("División: " + (a / b));
+        int x = 12;
+        int y = 4;
+        System.out.println("Suma: " + (x + y));
+        System.out.println("Resta: " + (x - y));
+        System.out.println("Multiplicación: " + (x * y));
+        System.out.println("División: " + (x / y));
     }
 }
